@@ -1,7 +1,7 @@
 package array_examples;
 import java.util.*;
 
-public class Brute_Force_Triplets {
+public class Array_ThreeSum {
 	private static List<List<Integer>> threesum(int[] nums) {
 		Set<List<Integer>> result= new HashSet<>();
 		int n = nums.length;
@@ -29,6 +29,3 @@ public static void main(String[] args) {
 	System.out.println(threesum(nums));
 	}
 }
-
-
-
