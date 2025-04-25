@@ -1,14 +1,14 @@
-package exception;
+package exception_handling;
 public class Arithmetic_Exception {
 	public static void main(String[] args) {
-		/* 
+		/*
 		int a,b;
 		System.out.println("1");
 		System.out.println("2");
 		a=10;
 		b=0;
 			int c=a/b;
-			System.out.println("Division: "+c);		
+			System.out.println("Division: "+c);
 			System.out.println("Logic 1: ");
 			System.out.println("Logic 2: ");
 
@@ -25,14 +25,13 @@ public class Arithmetic_Exception {
 		try
 		{
 			int c=a/b;
-			System.out.println("Division: "+c);	
+			System.out.println("Division: "+c);
 		}
 		catch(ArithmeticException e)
 		{
-			System.out.println("Above Exception Occur in Program: " +e);		
+			System.out.println("Above Exception Occur in Program: " +e);
 		}
 		System.out.println("Logic 1: ");
 		System.out.println("Logic 2: ");
 	}
-
 }

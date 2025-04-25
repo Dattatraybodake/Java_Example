@@ -1,4 +1,4 @@
-package exception;
+package exception_handling;
 
 public class Multiple_Catch_Block {
 

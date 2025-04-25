@@ -1,8 +1,6 @@
-package exception;
-
+package exception_handling;
 
 public class Nested_Try_Example {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
@@ -12,21 +10,21 @@ public class Nested_Try_Example {
 			try
 			{
 				// nested try block
-				if(a==1)
+				if(a==1) {
 					a=a/(a-a);
+				}
 				if(a==2) {
 					int c[]= {1};
 					c[42]= 99;
-					
-				}		
+
+				}
 			}catch(ArrayStoreException e) {
 				System.out.println("Array Index Out Of Bounds: " +e);
-		}
-			
+			}
+
 		}catch(ArithmeticException e)
 		{
 			System.out.println("Devide by o:"+e);
 		}
 	}
-
 }

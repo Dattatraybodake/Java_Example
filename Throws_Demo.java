@@ -1,12 +1,12 @@
-package exception;
+package exception_handling;
 
 public class Throws_Demo {
 	static void throwOne() throws IllegalAccessException
 	{
 		System.out.println("Inside throwOne.");
 		throw new IllegalAccessException("demo");
-		
 	}
+	
 	public static void main(String[] args) throws IllegalAccessException {
 		// TODO Auto-generated method stub
 		try
@@ -18,5 +18,4 @@ public class Throws_Demo {
 			System.out.println("caught "+e);
 		}
 	}
-
 }

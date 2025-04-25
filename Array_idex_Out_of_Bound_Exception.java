@@ -1,4 +1,4 @@
-package exception;
+package exception_handling;
 /*
 public class ArrayOutofBoundExceptionExample {
 	public static void main(String[] args) {
@@ -14,7 +14,6 @@ public class ArrayOutofBoundExceptionExample {
 }
  */
 
-
 public class Array_idex_Out_of_Bound_Exception {
 	public static void main(String[] args) {
 
@@ -25,7 +24,7 @@ public class Array_idex_Out_of_Bound_Exception {
 		{
 			int a[]= new int[6];
 			a[0]=200;
-			System.out.println("The Value of a[7]"+a[7]);	
+			System.out.println("The Value of a[7]"+a[7]);
 		}
 		catch(Exception ex)
 		{
@@ -35,4 +34,3 @@ public class Array_idex_Out_of_Bound_Exception {
 		System.out.println("4");
 	}
 }
-

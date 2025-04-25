@@ -1,13 +1,14 @@
-package exception;
+package exception_handling;
 import java.util.Scanner;
 
 public class Finally_Keyword {
 
 	public static void main(String[] args) {
-		try (// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in)) {
+		// TODO Auto-generated method stub
+
+		try (Scanner sc = new Scanner(System.in)) {
 			int a,b;
-			
+
 			System.out.println("Enter the value: ");
 			a=sc.nextInt();
 			b=sc.nextInt();
@@ -27,8 +28,5 @@ public class Finally_Keyword {
 		}
 		System.out.println("task 3");
 		System.out.println("Task 4");
-		
-		
 	}
-
 }

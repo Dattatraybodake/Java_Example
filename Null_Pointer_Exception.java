@@ -1,4 +1,4 @@
-package exception;
+package exception_handling;
 
 public class Null_Pointer_Exception
 {
@@ -15,9 +15,6 @@ public class Null_Pointer_Exception
 		{
 			System.out.println("Ex: "+ex);
 		}
-
 		System.out.println("2");
-
-
 	}
 }

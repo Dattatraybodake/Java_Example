@@ -1,10 +1,7 @@
-package exception;
+package exception_handling;
 import java.util.Scanner;
 class NumberException extends Exception
 {
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public String getOdd()
@@ -12,7 +9,7 @@ class NumberException extends Exception
 		return "odd";
 	}
 }
-class CheckException 
+class CheckException
 {
 	void verifyOdd(int no) throws NumberException
 	{
@@ -21,7 +18,7 @@ class CheckException
 			NumberException ne=new NumberException();
 			throw ne;
 		}
-		else	
+		else
 		{
 			System.out.println("Even Number");
 		}
